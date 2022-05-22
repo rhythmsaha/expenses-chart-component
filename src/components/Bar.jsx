@@ -26,7 +26,7 @@ const Bar = ({ item }) => {
                     <motion.div
                         initial={{ opacity: 0 }}
                         animate={{ opacity: 1 }}
-                        className="absolute  -top-10 py-1 px-2 rounded-md right-2/4 translate-x-2/4  bg-dark-brown text-white"
+                        className="absolute  -top-10 py-1 px-2 rounded-md right-2/4 translate-x-2/4  bg-dark-brown text-white z-10"
                     >
                         ${item.amount}
                     </motion.div>
